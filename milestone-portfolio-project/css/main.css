@@ -1,0 +1,171 @@
+/******Base Styles ********/
+
+body{
+  font-family: 'Playfair Display', serif;
+  color: #B27B84;
+
+}
+
+p {
+font-size: 18px;
+margin: 25px;
+color: #B27B84;
+}
+
+/***** Widths *****/
+
+.full-width {
+  width: 1200px;
+  margin: auto;
+  float:left;
+
+}
+
+.half-width{
+  width: 600px;
+  margin: auto;
+  float: left;
+
+}
+/****** Nav Bar******/
+
+nav {
+  float: right;
+  padding: 50px, 20px;
+  margin-left: 30px;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+nav ul li a {
+  float: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  padding: 14px, 16px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/**** Header*****/
+
+header {
+  height: 750px;
+  background: url('../img/header3.jpg');
+  background-size: cover;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  color: #ffffff;
+  padding: 80px, 10px, 10px, 75px;
+  margin-left: 30px;
+
+}
+
+header h2 {
+  width: 800px;
+  font-family: 'Playfair Display', serif;
+  clear: both;
+  font-size: 50px;
+  font-color: #ffffff;
+  padding: 75px, 75px, 1px, 75px;
+  line-height: 80px;
+  margin-left: 30px;
+
+}
+
+header h2 span {
+  color: #ffffff;
+}
+
+/****About Me *****/
+
+#about {
+  height: 650px;
+  float: clear;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: #C39047;
+}
+
+
+#about p {
+  margin: 25px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/**** My Work *****/
+
+#work{
+  height: 650px;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: #C39047;
+
+}
+
+#work p {
+  margin: 25px;
+  font-size: 18px;
+  line-height: 25px;
+
+}
+
+#mywork {
+  text-align: : center;
+  border-color: blue;
+}
+
+/*** Collaborate ****/
+
+#collaborate {
+  height: 650px;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 40px;
+  line-height: 25px;
+  font-family: 'Playfair Display', serif;
+  color: #C39047;
+
+}
+
+#collaborate p{
+  margin-top: 30px;
+}
+
+#envelope{
+  color: #C39047;
+}
+/**** Social Media ****/
+#social {
+  height: 200px;
+  text-align: center;
+  padding-top: 30px;
+
+
+}
+
+#social ul li {
+  display: inline-block;
+}
+#social ul li a {
+  text-decoration: none;
+  padding: 30px;
+}
+
+
+/***** footer ****/
+
+footer {
+  text-align: center;
+  font-size: 8px;
+}
